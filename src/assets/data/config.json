@@ -1,0 +1,8 @@
+{
+  "title": "App formation 6",
+  "links": [
+    { "path": "", "title": "HOME" },
+    { "path": "/about", "title": "ABOUT" },
+    { "path": "/books", "title": "BOOKS" }
+  ]
+}

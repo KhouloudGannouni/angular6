@@ -1,0 +1,13 @@
+
+<form (submit)="emitBook()" [formGroup]="bookForm">
+  <div class="form-group">
+    <label> Title : </label>
+    <input type="text" class="form-control" formControlName="title">
+  </div>
+  <div class="form-group">
+    <label>Author:</label>
+    <input type="text" class="form-control" formControlName="author">
+  </div>
+  <button type="submit" class="btn btn-primary" [disabled]="!bookForm.valid"> Save </button>
+</form>
+
